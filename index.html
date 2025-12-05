@@ -38,6 +38,36 @@
             margin: 0;
             padding-left: 20px;
         }
+    .comment h2{
+        border-bottom: 2px solid #70B2B2;
+        }
+    div input{
+        min-height: 50px;
+        min-width: 300px;
+        background-color:#9ECFD4 ;
+        border: 2px solid black;
+        border-radius: 10px;
+        text-transform: uppercase;
+        text-align: center;
+    }
+    button{
+        margin: 2px;
+        background-color: red;
+        border: 1px solid black;
+        border-radius: 5px;
+        margin-left: 120px;
+
+    }
+        button:hover{
+        background-color: rgb(228, 88, 88);
+        border: 1px solid black;
+        border-radius: 5px;
+    }
+    button:active{
+        background-color: green;
+        border: 1px solid black;
+        border-radius: 5px;
+    }
     </style>
 </head>
 
@@ -102,8 +132,17 @@
             <li> coding competition – SMS</li>
         </ul>
     </div>
+    <div class="comment">
+        <h2>Comment</h2>
+        <form action="https://sheetdb.io/api/v1/hetjzlzogksb5" method="post">
+    <input class="input" type="text" name="comment" placeholder="Send your comment...">
+    <br>
+    <button>Submit</button>
+    </form>
+    </div>
 
 </div>
 
 </body>
 </html>
+
